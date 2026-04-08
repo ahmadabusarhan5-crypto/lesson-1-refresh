@@ -4,3 +4,4 @@ def factors(x):
     if x % i == 0:
       result.append(i)
   return result
+
