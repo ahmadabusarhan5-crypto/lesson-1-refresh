@@ -1,7 +1,12 @@
 def factors(x):
-  result = []
-  for i in range(1,x+1):
+  f_list = []
+  for i in range(1, x + 1):
     if x % i == 0:
-      result.append(i)
-  return result
+      f_list.append(i)
+  return f_list
 
+#check your code
+print(factors(6))
+print(factors(17))
+print(factors(24))
+print(factors(48))
